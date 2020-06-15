@@ -1,0 +1,8 @@
+# .o files
+build/IntVector.o
+build/main.o
+build/sorts.o
+# libraries
+dinlib.so
+# executable
+bin/sorting
