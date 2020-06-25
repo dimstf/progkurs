@@ -39,7 +39,7 @@ int main(int argc,char *argv[])
 	tempTime = 0;
 	realTime = 0;
 	tempTime=wtime();
-	quick_sort(s,0,s->mas[s->used-1]);
+	quick_sort(s,0,s->used-1);
 	realTime=wtime()-tempTime;
 	printf("quick sort: %f\n\n",realTime);
 	for(i=1;i<s->used;i++)

@@ -44,7 +44,7 @@ int quick_sort(IntVector *q,int begin,int end)
             j--;
         }
     } while (i <= j);
-    if (j<end)
+    if (i<end)
         quick_sort(q,i,end);
     if (j>begin)
         quick_sort(q,begin,j);
