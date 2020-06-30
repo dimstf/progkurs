@@ -1,5 +1,5 @@
 #!/bin/sh
-LD_LIBRARY_PATH=/home/uasya/kursprog/pk
+LD_LIBRARY_PATH=/mnt/c/Users/Admin/ubuntufolder/progkurs
 export LD_LIBRARY_PATH
 cd bin
 echo first - bubble, second - quick
@@ -30,3 +30,12 @@ echo sr
 ./sorting sr/srint13.txt
 ./sorting sr/srint14.txt
 ./sorting sr/srint15.txt
+echo rand
+./sorting rand/rand8.txt
+./sorting rand/rand9.txt
+./sorting rand/rand10.txt
+./sorting rand/rand11.txt
+./sorting rand/rand12.txt
+./sorting rand/rand13.txt
+./sorting rand/rand14.txt
+./sorting rand/rand15.txt
